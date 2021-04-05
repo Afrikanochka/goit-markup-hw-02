@@ -1,5 +1,26 @@
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #000000;
+  --acent-color: ;
+}
+body {
+  font-family: Roboto, sans-serif;
+}
 /* Site nav */
-
+.site-nav a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-nav:hover,
+.site-nav:focus {
+  color: #2196f3;
+}
+.auth-nav a {
+  text-decoration: none;
+}
 /* Hero */
 
 /* Section */
