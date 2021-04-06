@@ -11,6 +11,7 @@
   color: var(--primary-text-color);
   background: var(--primary-background-color);
 }
+
 /* Logo */
 .logo {
   text-decoration: none;
@@ -18,10 +19,13 @@
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
 /* Site nav */
-.nav a {
+.nav {
   list-style: none;
+}
+.nav a {
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -36,6 +40,9 @@
 .nav .link:hover,
 .nav .link:focus {
   color: var(--accent-color);
+}
+.auth-nav {
+  list-style: none;
 }
 .auth-nav a {
   text-decoration: none;
@@ -70,6 +77,9 @@
   letter-spacing: 0.03em;
 }
 /* Features */
+.feature-list {
+  list-style: none;
+}
 .feature-list .title {
   font-weight: 700;
   font-size: 14px;
@@ -84,8 +94,25 @@
   color: var(--secondary-text-color);
 }
 /* Work */
-
+.work {
+  list-style: none;
+}
+.work .title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.work .text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
 /* User */
+.user {
+  list-style: none;
+}
 .user-title {
   font-weight: 500;
   font-size: 16px;
@@ -126,6 +153,9 @@
   background-color: var(--accent-color);
   color: #ffffff;
 }
+.list {
+  list-style: none;
+}
 /* Footer */
 .footer {
   background-color: #2f303a;
@@ -135,10 +165,23 @@
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  color: #ffffff;
 }
 .footer .link {
+  text-decoration: none;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+.footer .link:hover,
+.footer .link:focus {
+  color: var(--accent-color);
+}
+.footer .address {
+  color: #ffffff;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
